@@ -13,19 +13,14 @@
 
 
 {
-% Adjust font size here
+% change Large font here
 \Large{
-  \begin{tabu}{l c }
-    % Left side: Name and contact information
-    \begin{tabu}{ l }
-      \scshape{王小予} \\ % Name
-      \email{xiao-yuwang@outlook.com} \textperiodcentered\ 
-      \phone{(+86) 182-7377-0670} \textperiodcentered\ 
-      \linkedin[XIAO-YU WANG]{https://www.linkedin.com/in/xiao-yu-wang-13a345330}
-    \end{tabu}
-    &
-    % Right side: Photo
-    \multirow{5}{1in}{\includegraphics[width=0.88in]{photo}} % Replace 'avatar' with your photo file
+  \begin{tabu}{ c l r }
+   \multirow{5}{1in}{\includegraphics[width=0.88in]{avatar}} & \scshape{王小予} & {Python~}\progressbar{0.75} \\
+    & \email{yuanbin2014@gmail.com} & {Scala~}\progressbar{0.5} \\
+    & \phone{(+86) 131-221-87xxx} & {Linux~}\progressbar{0.7} \\
+    & \linkedin[billryan8]{https://www.linkedin.com/in/billryan8} & {Flask~}\progressbar{0.5} \\
+    & \github[github.com/billryan]{https://github.com/billryan} & {Javascript~}\progressbar{0.5}
   \end{tabu}
 }
 }
